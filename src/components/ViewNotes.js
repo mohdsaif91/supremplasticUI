@@ -1,9 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
-import { useSelector, useDispatch } from "react-redux";
 
 function ViewNotes() {
-  const myState = useSelector((state) => state.changeTheNumber);
   return (
     <>
       <Card style={{ width: "18rem" }}>
@@ -21,7 +19,6 @@ function ViewNotes() {
         </Card.Body>
       </Card>
       <div className="wrap">
-        <h1 id="counter"></h1>
         <div className="wrap-btns">
           <button id="increment">+</button>
           <input type="text" value="myState" />

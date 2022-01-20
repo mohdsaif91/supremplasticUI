@@ -1,70 +1,54 @@
 import React from 'react'
-import {Accordion } from "react-bootstrap"
-
 function About() {
-    return (
-        <div className="container">
-        
-        <Accordion defaultActiveKey="0">
-            <h2 className = "my-2">About Us</h2>
-            <div className="ab1 my-3">
-  <Accordion.Item eventKey="0">
-    <Accordion.Header>Accordion Item #1</Accordion.Header>
-    <Accordion.Body>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </Accordion.Body>
-  </Accordion.Item>
+    return ( 
+    <div className="site-section">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-4" data-aos="fade-up" data-aos-delay="">
+          <div className="feature-92912">
+            <span className="wrap-icon flaticon-debt"></span>
+            <h2 className="heading">Financial Analysis</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!
+            </p>
+            <p>
+              <a href="/" className="more-92913">
+                View Our Services
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div className="feature-92912 active">
+            <span className="wrap-icon flaticon-growth"></span>
+            <h2 className="heading">Marketing Plans</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!
+            </p>
+            <p>
+              <a href="/" className="more-92913">
+                View Our Services
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div className="feature-92912">
+            <span className="wrap-icon flaticon-business-plan"></span>
+            <h2 className="heading">Optimize Solutions</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!
+            </p>
+            <p>
+              <a href="/" className="more-92913">
+                View Our Services
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div className="ab1 my-3">
-  <Accordion.Item eventKey="1">
-    <Accordion.Header>Accordion Item #2</Accordion.Header>
-    <Accordion.Body>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </Accordion.Body>
-  </Accordion.Item>
-  </div>
-  <div className="ab1 my-3">
-  <Accordion.Item eventKey="2">
-    <Accordion.Header>Accordion Item #2</Accordion.Header>
-    <Accordion.Body>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </Accordion.Body>
-  </Accordion.Item>
-  </div>
-  <div className="ab1 my-3">
-  <Accordion.Item eventKey="3">
-    <Accordion.Header>Accordion Item #2</Accordion.Header>
-    <Accordion.Body>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </Accordion.Body>
-  </Accordion.Item>
-  </div>
-</Accordion>
-</div>
     )
 }
 

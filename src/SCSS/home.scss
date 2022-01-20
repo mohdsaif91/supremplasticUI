@@ -375,4 +375,45 @@
     display: flex;
   }
 
+  .nonloop-block-13 .owl-nav{
+    display: none;
+  }
+
+  .block-13 .owl-nav{
+    display: none;
+  }
+
+  .owl-carousel .owl-dot, 
+  .owl-carousel .owl-nav 
+  .owl-next, .owl-carousel 
+  .owl-nav .owl-prev{
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
   
+  .block-13 .owl-dots{
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+  }
+
+  .block-13 .owl-dots .owl-dot{
+    display: inline-block;
+  }
+
+  .block-13 .owl-dots .owl-dot span{
+    display: inline-block;
+    width: 15px;
+    height: 3px;
+    border-radius: 0;
+    background: #ccc;
+    -webkit-transition: .3s all cubic-bezier(.32,.71,.53,.53);
+    -o-transition: .3s all cubic-bezier(.32,.71,.53,.53);
+    transition: .3s all cubic-bezier(.32,.71,.53,.53);
+    margin: 3px;
+  }

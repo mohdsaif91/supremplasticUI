@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
@@ -166,113 +165,137 @@ function Navbar() {
         </div>
       </div>
       <div class="site-section bg-left-half mb-5">
-<div class="container block-13">
-<h2 class="text-primary mb-5 font-weight-bold">Our Solutions</h2>
-<div class="owl-carousel nonloop-block-13 owl-loaded owl-drag">
-  <div className="owl-stage-outer">
-  <div className="owl-stage">
-  <div className="owl-item cloned">
-<div class="media-29101">
-<a href="/"><img src="https://preview.colorlib.com/theme/arcwork/images/ximg_1.jpg.pagespeed.ic.P8MNjyRbWD.webp" alt="error" class="img-fluid" data-pagespeed-url-hash="526215920" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
-<h3><a href="/">Consectetur Adipisicing Elit</a></h3>
-</div>
-</div> 
-<div className="owl-item cloned">
-<div class="media-29101">
-<a href="/"><img src="https://preview.colorlib.com/theme/arcwork/images/ximg_3.jpg.pagespeed.ic.0emEKcBRLs.webp" alt="error" class="img-fluid" data-pagespeed-url-hash="820715841" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
-<h3><a href="/">Beatae Doloribu</a></h3>
-</div>
-</div> 
-<div className="owl-item cloned">
-<div class="media-29101">
-<a href="/"><img src="https://preview.colorlib.com/theme/arcwork/images/ximg_2.jpg.pagespeed.ic.NY5VsNna8l.webp" alt="error" class="img-fluid" data-pagespeed-url-hash="1115215762" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
-<h3><a href="/">Accusantium Eius Soluta</a></h3>
-</div>
-</div> 
-<div className="owl-item cloned">
-<div class="media-29101">
-<a href="/"><img src="https://preview.colorlib.com/theme/arcwork/images/ximg_1.jpg.pagespeed.ic.P8MNjyRbWD.webp" alt="error" class="img-fluid" data-pagespeed-url-hash="526215920" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
-<h3><a href="/">Consectetur Adipisicing Elit</a></h3>
-</div>
-</div> 
-<div className="owl-item cloned">
-<div class="media-29101">
-<a href="/"><img src="https://preview.colorlib.com/theme/arcwork/images/ximg_3.jpg.pagespeed.ic.0emEKcBRLs.webp" alt="error" class="img-fluid" data-pagespeed-url-hash="820715841" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
-<h3><a href="/">Beatae Doloribu</a></h3>
-</div>
-</div> 
-<div className="owl-item cloned">
-<div class="media-29101">
-<a href="/"><img src="https://preview.colorlib.com/theme/arcwork/images/ximg_2.jpg.pagespeed.ic.NY5VsNna8l.webp" alt="error" class="img-fluid" data-pagespeed-url-hash="1115215762" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
-<h3><a href="/">Accusantium Eius Soluta</a></h3>
-</div>
-</div> 
-</div>
-</div>
-</div>
-</div>
-</div>
+        <div class="container block-13">
+          <h2 class="text-primary mb-5 font-weight-bold">Our Solutions</h2>
+          <div class="owl-carousel nonloop-block-13 owl-loaded owl-drag">
+            <div className="owl-stage-outer">
+              <div className="owl-stage">
+                <div className="owl-item cloned">
+                  <div class="media-29101">
+                    <a href="/">
+                      <img
+                        src="https://preview.colorlib.com/theme/arcwork/images/ximg_1.jpg.pagespeed.ic.P8MNjyRbWD.webp"
+                        alt="error"
+                        class="img-fluid"
+                        data-pagespeed-url-hash="526215920"
+                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                      />
+                    </a>
+                    <h3>
+                      <a href="/">Consectetur Adipisicing Elit</a>
+                    </h3>
+                  </div>
+                </div>
+                <div className="owl-item cloned">
+                  <div class="media-29101">
+                    <a href="/">
+                      <img
+                        src="https://preview.colorlib.com/theme/arcwork/images/ximg_3.jpg.pagespeed.ic.0emEKcBRLs.webp"
+                        alt="error"
+                        class="img-fluid"
+                        data-pagespeed-url-hash="820715841"
+                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                      />
+                    </a>
+                    <h3>
+                      <a href="/">Beatae Doloribu</a>
+                    </h3>
+                  </div>
+                </div>
+                <div className="owl-item cloned">
+                  <div class="media-29101">
+                    <a href="/">
+                      <img
+                        src="https://preview.colorlib.com/theme/arcwork/images/ximg_2.jpg.pagespeed.ic.NY5VsNna8l.webp"
+                        alt="error"
+                        class="img-fluid"
+                        data-pagespeed-url-hash="1115215762"
+                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                      />
+                    </a>
+                    <h3>
+                      <a href="/">Accusantium Eius Soluta</a>
+                    </h3>
+                  </div>
+                </div>
+                <div className="owl-item cloned">
+                  <div class="media-29101">
+                    <a href="/">
+                      <img
+                        src="https://preview.colorlib.com/theme/arcwork/images/ximg_1.jpg.pagespeed.ic.P8MNjyRbWD.webp"
+                        alt="error"
+                        class="img-fluid"
+                        data-pagespeed-url-hash="526215920"
+                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                      />
+                    </a>
+                    <h3>
+                      <a href="/">Consectetur Adipisicing Elit</a>
+                    </h3>
+                  </div>
+                </div>
+                <div className="owl-item cloned">
+                  <div class="media-29101">
+                    <a href="/">
+                      <img
+                        src="https://preview.colorlib.com/theme/arcwork/images/ximg_3.jpg.pagespeed.ic.0emEKcBRLs.webp"
+                        alt="error"
+                        class="img-fluid"
+                        data-pagespeed-url-hash="820715841"
+                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                      />
+                    </a>
+                    <h3>
+                      <a href="/">Beatae Doloribu</a>
+                    </h3>
+                  </div>
+                </div>
+                <div className="owl-item cloned">
+                  <div class="media-29101">
+                    <a href="/">
+                      <img
+                        src="https://preview.colorlib.com/theme/arcwork/images/ximg_2.jpg.pagespeed.ic.NY5VsNna8l.webp"
+                        alt="error"
+                        class="img-fluid"
+                        data-pagespeed-url-hash="1115215762"
+                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                      />
+                    </a>
+                    <h3>
+                      <a href="/">Accusantium Eius Soluta</a>
+                    </h3>
+                  </div>
+                </div>
+                <div className="owl-nav">
+                  <div className="owl-prev">prev</div>
+                  <div className="owl-next">next</div>
+                  <div className="owl-dots">
+                    <div className="owl-dot">
+                      <span></span>
+                    </div>
+                    <div className="owl-dot">
+                      <span></span>
+                    </div>
+                    <div className="owl-dot">
+                      <span></span>
+                    </div>
+                    <div className="owl-dot active">
+                      <span></span>
+                    </div>
+                    <div className="owl-dot">
+                      <span></span>
+                    </div>
+                    <div className="owl-dot">
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    // <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-    //   <div className="container-fluid">
-    //     <img
-    //       src="https://cdn.w600.comps.canstockphoto.com/hands-sharing-ideas-drawing_csp39325496.jpg"
-    //       alt=""
-    //     />
-
-    //     <div className="collapse navbar-collapse" id="navbarColor01">
-    //       <ul className="navbar-nav me-auto">
-    //         <li className="nav-item">
-    //           <Link className="nav-link active" to="/">
-    //             Home
-    //             <span className="visually-hidden">(current)</span>
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link className="nav-link" to="/ContactUs">
-    //             Contact
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link className="nav-link" to="/ViewNotes">
-    //             ViewNotes
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link className="nav-link" to="/About">
-    //             About
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link className="nav-link" to="/Profile">
-    //             Profile
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link className="nav-link" to="/Registration">
-    //             Register
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link className="nav-link" to="/Login">
-    //             Login
-    //           </Link>
-    //         </li>
-    //       </ul>
-    //       <form className="d-flex">
-    //         <input
-    //           className="form-control me-sm-2"
-    //           type="text"
-    //           placeholder="Search"
-    //         />
-    //         <button className="btn btn-secondary my-2 my-sm-0" type="submit">
-    //           Search
-    //         </button>
-    //       </form>
-    //     </div>
-    //   </div>
-    // </nav>
   );
 }
 

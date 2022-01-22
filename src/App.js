@@ -9,6 +9,7 @@ import ViewNotes from "./components/ViewNotes";
 import Profile from "./components/Profile";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" element={<Home />} exact />
         </Routes>
       </Container>
+      <Footer/>
     </BrowserRouter>
   );
 }

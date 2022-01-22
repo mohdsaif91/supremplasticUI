@@ -46,7 +46,7 @@ function Navbar() {
             <div className="col-3 ">
               <div className="site-logo">
                 <NavLink to="index.html" className="font-weight-bold">
-                  Arcwork
+                  Supreme Plastic
                 </NavLink>
               </div>
             </div>
@@ -124,7 +124,7 @@ function Navbar() {
                 <span className="wrap-icon flaticon-debt"></span>
                 <h2 className="heading">Financial Analysis</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!
+                  Our Products are Strong and Durable   
                 </p>
                 <p>
                   <a href="/" className="more-92913">
@@ -291,6 +291,7 @@ function Navbar() {
                   </div>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>

@@ -138,7 +138,7 @@ function Navbar() {
                 <span className="wrap-icon flaticon-growth"></span>
                 <h2 className="heading">Marketing Plans</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!
+                Plastic granules are mainly used for manufacturing stationery plastic products, which we use in our daily life.
                 </p>
                 <p>
                   <a href="/" className="more-92913">
@@ -152,7 +152,7 @@ function Navbar() {
                 <span className="wrap-icon flaticon-business-plan"></span>
                 <h2 className="heading">Optimize Solutions</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!
+                We offer a wide range of plastic granules that are fabricated using high grade material. These are further used by various Plastic Industries to manufacture different end products. like plastic table and chair and various entertainment products such as toys.
                 </p>
                 <p>
                   <a href="/" className="more-92913">
@@ -164,19 +164,19 @@ function Navbar() {
           </div>
         </div>
       </div>
-      <div class="site-section bg-left-half mb-5">
-        <div class="container block-13">
-          <h2 class="text-primary mb-5 font-weight-bold">Our Solutions</h2>
-          <div class="owl-carousel nonloop-block-13 owl-loaded owl-drag">
+      <div className="site-section bg-left-half mb-5">
+        <div className="container block-13">
+          <h2 className="text-primary mb-5 font-weight-bold">Our Solutions</h2>
+          <div className="owl-carousel nonloop-block-13 owl-loaded owl-drag">
             <div className="owl-stage-outer">
               <div className="owl-stage">
                 <div className="owl-item cloned">
-                  <div class="media-29101">
+                  <div className="media-29101">
                     <a href="/">
                       <img
                         src="https://preview.colorlib.com/theme/arcwork/images/ximg_1.jpg.pagespeed.ic.P8MNjyRbWD.webp"
                         alt="error"
-                        class="img-fluid"
+                        className="img-fluid"
                         data-pagespeed-url-hash="526215920"
                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
                       />
@@ -187,12 +187,12 @@ function Navbar() {
                   </div>
                 </div>
                 <div className="owl-item cloned">
-                  <div class="media-29101">
+                  <div className="media-29101">
                     <a href="/">
                       <img
                         src="https://preview.colorlib.com/theme/arcwork/images/ximg_3.jpg.pagespeed.ic.0emEKcBRLs.webp"
                         alt="error"
-                        class="img-fluid"
+                        className="img-fluid"
                         data-pagespeed-url-hash="820715841"
                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
                       />
@@ -203,12 +203,12 @@ function Navbar() {
                   </div>
                 </div>
                 <div className="owl-item cloned">
-                  <div class="media-29101">
+                  <div className="media-29101">
                     <a href="/">
                       <img
                         src="https://preview.colorlib.com/theme/arcwork/images/ximg_2.jpg.pagespeed.ic.NY5VsNna8l.webp"
                         alt="error"
-                        class="img-fluid"
+                        className="img-fluid"
                         data-pagespeed-url-hash="1115215762"
                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
                       />
@@ -219,12 +219,12 @@ function Navbar() {
                   </div>
                 </div>
                 <div className="owl-item cloned">
-                  <div class="media-29101">
+                  <div className="media-29101">
                     <a href="/">
                       <img
                         src="https://preview.colorlib.com/theme/arcwork/images/ximg_1.jpg.pagespeed.ic.P8MNjyRbWD.webp"
                         alt="error"
-                        class="img-fluid"
+                        className="img-fluid"
                         data-pagespeed-url-hash="526215920"
                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
                       />
@@ -235,12 +235,12 @@ function Navbar() {
                   </div>
                 </div>
                 <div className="owl-item cloned">
-                  <div class="media-29101">
+                  <div className="media-29101">
                     <a href="/">
                       <img
                         src="https://preview.colorlib.com/theme/arcwork/images/ximg_3.jpg.pagespeed.ic.0emEKcBRLs.webp"
                         alt="error"
-                        class="img-fluid"
+                        className="img-fluid"
                         data-pagespeed-url-hash="820715841"
                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
                       />
@@ -251,12 +251,12 @@ function Navbar() {
                   </div>
                 </div>
                 <div className="owl-item cloned">
-                  <div class="media-29101">
+                  <div className="media-29101">
                     <a href="/">
                       <img
                         src="https://preview.colorlib.com/theme/arcwork/images/ximg_2.jpg.pagespeed.ic.NY5VsNna8l.webp"
                         alt="error"
-                        class="img-fluid"
+                        className="img-fluid"
                         data-pagespeed-url-hash="1115215762"
                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
                       />
@@ -296,6 +296,36 @@ function Navbar() {
           </div>
         </div>
       </div>
+      <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+            <div>
+                <a href="/">
+                    <div className="product-image"> <img src="http://www.plastemart.com/upload/category/recycled-plastic-material.jpg" className="img-responsive"/> </div>
+                    <div className="product-name">
+                        <h1>Auxiliary Plastic Equipment</h1>
+                    </div>
+                </a>
+            </div>
+            </div>
+      <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+            <div>
+                <a href="/">
+                    <div className="product-image"> <img src="http://www.plastemart.com/upload/category/recycled-plastic-material.jpg" className="img-responsive"/> </div>
+                    <div className="product-name">
+                        <h1>Auxiliary Plastic Equipment</h1>
+                    </div>
+                </a>
+            </div>
+            </div>
+      <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+            <div>
+                <a href="/">
+                    <div className="product-image"> <img src="http://www.plastemart.com/upload/category/recycled-plastic-material.jpg" className="img-responsive"/> </div>
+                    <div className="product-name">
+                        <h1>Auxiliary Plastic Equipment</h1>
+                    </div>
+                </a>
+            </div>
+            </div>
     </div>
   );
 }

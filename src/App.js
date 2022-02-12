@@ -10,6 +10,7 @@ import Profile from "./components/Profile";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Services from "./pages/Services";
 
 function App() {
   return (
@@ -24,9 +25,10 @@ function App() {
           <Route path="/Registration" element={<Registration />} exact />
           <Route path="/Login" element={<Login />} exact />
           <Route path="/" element={<Home />} exact />
+          <Route path="/service" element={<Services />} exact />
         </Routes>
       </Container>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }

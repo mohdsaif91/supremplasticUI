@@ -42,6 +42,39 @@ body {
     width: 100%;
     position: absolute;
   }
+  .counter-box{
+    display: flex;
+    margin-bottom: 40px;
+
+    .icon{
+      width: 67px;
+      border-radius: 2px;
+      margin-right: 20px;
+      background: #fff;
+      height: 67px;
+      text-align: center;
+      line-height: 70px;
+      font-size: 40px;
+    }
+    .align-self-center{
+      align-self: center !important;
+    }
+  }
+  .counter-box h2{
+    font-weight: 700 !important;
+    color: #fff;
+    margin: 0 0 5px;
+    font-size: 30px;
+  }
+  .counter-box p{
+    font-size: 18px;
+    margin: 0;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
 }
 
 .site-mobile-menu {
@@ -446,4 +479,8 @@ h5,
   -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
   transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
   margin: 3px;
+}
+
+.heading{
+  margin-bottom: 55px;
 }

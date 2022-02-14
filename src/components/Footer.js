@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
+    <>
     <footer className="footer">
       <div className="container- footer-inner">
         <div className="row">
@@ -102,5 +103,24 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    <div className="sub-footer">
+    <div className="container">
+        <div className="row">
+            <div className="col-lg-6 col-md-6">
+                <p className="copy">© 2019 <a href="#">Theme Vessel.</a> All Rights Reserved.</p>
+            </div>
+            <div className="col-lg-6 col-md-6">
+                <ul className="social-list clearfix">
+                    <li><a href="#" className="f-facebook-bg"><i className="fa fa-facebook"></i></a></li>
+                    <li><a href="#" className="f-twitter-bg"><i className="fa fa-twitter"></i></a></li>
+                    <li><a href="#" className="f-google-bg"><i className="fa fa-google-plus"></i></a></li>
+                    <li><a href="#" className="f-rss-bg"><i className="fa fa-rss"></i></a></li>
+                    <li><a href="#" className="f-linkedin-bg"><i className="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</>
   );
 }

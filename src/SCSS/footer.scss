@@ -2,6 +2,7 @@
   padding-top: 80px;
   border-top: solid 1px #f8f8f8;
   background: #f8f8f8;
+  display: flex;
 
   .container- {
     width: 100%;
@@ -18,10 +19,112 @@
       margin-left: -15px;
       .container-item {
         padding: 32px 32px 0 32px;
-        .footer .footer-item {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+         .footer-item {
           margin-bottom: 60px;
         }
       }
     }
+  }
+}
+.footer-inner .contact-info li{
+  margin-bottom: 13px;
+  font-size: 16px;
+  color: #3c3b3b;
+  position: relative;
+  padding-left: 25px;
+}
+
+.footer .footer-inner .contact-info li i{
+  left: 0;
+  position: absolute;
+  line-height: 22px;
+  &::before{
+    font-family: Flaticon;
+    font-size: auto;
+    font-style: normal;
+    margin-left: 0px;
+    content: "\f101";
+  }
+
+  .clearfix::after{
+    display: block;
+    clear: both;
+    content: "";
+  }
+  
+}
+.footer h4{
+  font-size: 21px;
+  margin-bottom: 7px;
+  color: #2f2f2f;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.s-border{
+  width: 50px;
+  height: 1px;
+  margin-bottom: 2px;
+  border-radius: 50px;
+  background: #c5c5c5;
+}
+
+.m-border{
+  width: 25px;
+  height: 1px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  background: #c5c5c5;
+}
+
+.footer-item ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #3c3b3b;
+}
+
+.footer .footer-inner .links li{
+  margin-bottom: 13px;
+  font-size: 16px;
+}
+
+.footer .footer-inner .links li a{
+  color: #3c3b3b;
+}
+
+.form-inline{
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.footer .form-inline .btn{
+  color: #fff;
+  background: #0071bb;
+  width: 20%;
+  border-radius: 0;
+  padding: 13.5px 13px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+
+  &::before{
+    content: "\f1d8";
   }
 }

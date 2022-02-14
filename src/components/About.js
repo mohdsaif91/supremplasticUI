@@ -1,8 +1,23 @@
 import React from 'react'
 function About() {
     return ( 
+
+      <div className="about-section">
+      <div className="main">
+        <div className="cap">
+        <h3>RE</h3>
+        </div>
+        <div className="sm">
+          <h5>USE</h5>
+          <h5>CYCLE</h5>
+          <h5>DUCE</h5>
+        </div>
+        <div className="img">
+          <img src="https://i.ytimg.com/vi/2rIQbutbyJo/maxresdefault.jpg" height="370px" width="700px" alt="" />
+        </div>
+      </div>
     <div className="site-section">
-    <div className="container">
+    <div className="about-container">
       <div className="row">
         <div className="col-md-4" data-aos="fade-up" data-aos-delay="">
           <div className="feature-92912">
@@ -48,6 +63,7 @@ function About() {
         </div>
       </div>
     </div>
+  </div>
   </div>
     )
 }

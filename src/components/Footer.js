@@ -1,126 +1,108 @@
 import React from "react";
+import { NavLink, useNavigate } from "react-router-dom";
+
+import LocationIcon from "../assets/location-icon.svg";
+import PhoneIcon from "../assets/phone-icon.svg";
+import MailIcon from "../assets/mail-icon.svg";
+import FacebookIcon from "../assets/facebook.svg";
+import InstagramIcon from "../assets/instagram.svg";
+import YoutubeIcon from "../assets/movie.svg";
+import Whatsapp from "../assets/whatsapp.svg";
 
 export default function Footer() {
+  const navigate = useNavigate();
   return (
-    <>
-    <footer className="footer">
-      <div className="container- footer-inner">
-        <div className="row">
-          <div className="container-item">
-            <div className="footer-item clearfix">
-              <img
-                src="assets/img/logos/black-logo.png"
-                alt="logo"
-                className="f-logo"
-              />
-              <ul className="contact-info">
-                <li>
-                  <i className="flaticon-pin"></i>20/F Green Road, Dhanmondi,
-                  Dhaka
-                </li>
-                <li>
-                  <i className="flaticon-mail"></i>
-                  <a href="mailto:sales@hotelempire.com">
-                    info@themevessel.com
-                  </a>
-                </li>
-                <li>
-                  <i className="flaticon-phone"></i>
-                  <a href="tel:+55-417-634-7071">+0477 85X6 552</a>
-                </li>
-                <li>
-                  <i className="flaticon-fax"></i>+0477 85X6 552
-                </li>
-              </ul>
+    <React.Fragment>
+      <div className="footer">
+        <div className="footer-item">
+          <div className="busniess-info">
+            <div className="info-item">
+              <img alt="" src={LocationIcon} className="busniess-icon-class" />
+              <div className="img-text">
+                <h3>Find us</h3>
+                <div className="busniess-text">
+                  1010 Avenue, sw 54321, chandigarh
+                </div>
+              </div>
             </div>
           </div>
-          <div className="container-item">
-            <div className="footer-item">
-              <h4>Helpful Links</h4>
-              <div className="s-border"></div>
-              <div className="m-border"></div>
-              <ul className="links">
-                <li>
-                  <a href="#">About Us</a>
-                </li>
-                <li>
-                  <a href="#">Faq's</a>
-                </li>
-                <li>
-                  <a href="#">Blog</a>
-                </li>
-                <li>
-                  <a href="#">Contact Us</a>
-                </li>
-              </ul>
+          <div className="busniess-info">
+            <div className="info-item">
+              <img alt="" src={PhoneIcon} className="busniess-icon-class" />
+              <div className="img-text">
+                <h3>Call us</h3>
+                <div className="busniess-text">
+                  <a href="tel:9167605650">+91 9167605650</a>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="container-item">
-            <div className="footer-item">
-              <h4>Support</h4>
-              <div className="s-border"></div>
-              <div className="m-border"></div>
-              <ul className="links">
-                <li>
-                  <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="#">Terms of Use</a>
-                </li>
-                <li>
-                  <a href="#">Support Center</a>
-                </li>
-                <li>
-                  <a href="#">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="container-item">
-            <div className="footer-item clearfix">
-              <h4>Subscribe</h4>
-              <div className="s-border"></div>
-              <div className="m-border"></div>
-              <div className="Subscribe-box">
-                <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit.
-                </p>
-                <form className="form-inline" action="#" method="GET">
-                  <input
-                    type="text"
-                    className="form-control mb-sm-0"
-                    id="inlineFormInputName3"
-                    placeholder="Email Address"
-                  />
-                  <button type="submit" className="btn">
-                    <i className="fa fa-paper-plane"></i>
-                  </button>
-                </form>
+          <div className="busniess-info">
+            <div className="info-item">
+              <img alt="" src={MailIcon} className="busniess-icon-class" />
+              <div className="img-text">
+                <h3>Mail us</h3>
+                <div className="busniess-text">
+                  <a href="mailto:abc@gmail.com">abc@gmail.com</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <div className="sub-footer">
-    <div className="container">
-        <div className="row">
-            <div className="col-lg-6 col-md-6">
-                <p className="copy">© 2019 <a href="#">Theme Vessel.</a> All Rights Reserved.</p>
+        <div className="info-section">
+          <div className="busniess-info">
+            <div className="social-media">
+              <div className="social-heading">Follow us</div>
+              <div className="social-media-icon mt-2">
+                <img
+                  alt=""
+                  src={FacebookIcon}
+                  className="busniess-icon-class mr-2"
+                />
+                <img
+                  alt=""
+                  src={InstagramIcon}
+                  className="busniess-icon-class mr-2"
+                />
+                <img
+                  alt=""
+                  src={YoutubeIcon}
+                  className="busniess-icon-class mr-2"
+                />
+                <img
+                  alt=""
+                  src={Whatsapp}
+                  className="busniess-icon-class mr-2"
+                />
+              </div>
             </div>
-            <div className="col-lg-6 col-md-6">
-                <ul className="social-list clearfix">
-                    <li><a href="#" className="f-facebook-bg"><i className="fa fa-facebook"></i></a></li>
-                    <li><a href="#" className="f-twitter-bg"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#" className="f-google-bg"><i className="fa fa-google-plus"></i></a></li>
-                    <li><a href="#" className="f-rss-bg"><i className="fa fa-rss"></i></a></li>
-                    <li><a href="#" className="f-linkedin-bg"><i className="fa fa-linkedin"></i></a></li>
-                </ul>
+          </div>
+          <div className="busniess-info">
+            <div className="social-heading">Having any queries ?</div>
+            <div className="sub-heading mt-2">
+              <button
+                onClick={() => navigate("/contactUs")}
+                className="btn contact-us-btn mt-3"
+              >
+                Connect with us
+              </button>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-</>
+      </div>
+      <div className="bottom-fotter">
+        <div className="site-logo mt-4">
+          <NavLink to="index.html" className="font-weight-bold">
+            Supreme Plastic
+          </NavLink>
+        </div>
+        <div className="page-links">
+          <a className="page-item">Home</a>
+          <a className="page-item">Product</a>
+          <a className="page-item">Services</a>
+          <a className="page-item">contact us</a>
+        </div>
+      </div>
+    </React.Fragment>
   );
 }

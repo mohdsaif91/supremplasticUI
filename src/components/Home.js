@@ -79,107 +79,71 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <div>
-          <a href="/">
-            <div className="product-image">
-              {" "}
-              <img
-                src="http://www.plastemart.com/upload/category/recycled-plastic-material.jpg"
-                className="img-responsive"
-              />{" "}
-            </div>
-            <div className="product-name">
-              <h1>Auxiliary Plastic Equipment</h1>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <div>
-          <a href="/">
-            <div className="product-image">
-              {" "}
-              <img
-                src="http://www.plastemart.com/upload/category/recycled-plastic-material.jpg"
-                className="img-responsive"
-              />{" "}
-            </div>
-            <div className="product-name">
-              <h1>Auxiliary Plastic Equipment</h1>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <div>
-          <a href="/">
-            <div className="product-image">
-              {" "}
-              <img
-                src="http://www.plastemart.com/upload/category/recycled-plastic-material.jpg"
-                className="img-responsive"
-              />{" "}
-            </div>
-            <div className="product-name">
-              <h1>Auxiliary Plastic Equipment</h1>
-            </div>
-          </a>
-        </div>
-      </div> */}
-      <div class="counters">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="media counter-box">
-                <div class="icon">
+      <div className="counters">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="media counter-box">
+                <div className="icon">
                   <i class="flaticon-award">
-                    <img src="https://image.shutterstock.com/z/stock-vector-people-profile-silhouettes-user-vector-icon-illustration-sign-1749142388.jpg" height="50" alt="" />
+                    <img
+                      src="https://image.shutterstock.com/z/stock-vector-people-profile-silhouettes-user-vector-icon-illustration-sign-1749142388.jpg"
+                      height="50"
+                      alt=""
+                    />
                   </i>
                 </div>
-                <div class="media-body align-self-center">
-                  <h2 class="counter Starting">967</h2>
+                <div className="media-body align-self-center">
+                  <h2 className="counter Starting">967</h2>
                   <p>Number of employes</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="media counter-box">
-                <div class="icon">
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="media counter-box">
+                <div className="icon">
                   <i class="flaticon-calendar-1">
-                    <img src="https://image.shutterstock.com/image-vector/black-people-interface-toolbar-pictogram-600w-559307488.jpg" height="50" alt="" />
+                    <img
+                      src="https://image.shutterstock.com/image-vector/black-people-interface-toolbar-pictogram-600w-559307488.jpg"
+                      height="50"
+                      alt=""
+                    />
                   </i>
                 </div>
-                <div class="media-body align-self-center">
-                  <h2 class="counter Starting">177</h2>
+                <div className="media-body align-self-center">
+                  <h2 className="counter Starting">177</h2>
                   <p>Number of client</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="media counter-box">
-                <div class="icon">
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="media counter-box">
+                <div className="icon">
                   <i class="flaticon-user">
-                    <img src="https://img.icons8.com/external-soft-fill-juicy-fish/344/external-production-automation-technology-soft-fill-soft-fill-juicy-fish.png" height="50" alt="" />
+                    <img
+                      src="https://img.icons8.com/external-soft-fill-juicy-fish/344/external-production-automation-technology-soft-fill-soft-fill-juicy-fish.png"
+                      height="50"
+                      alt=""
+                    />
                   </i>
                 </div>
-                <div class="media-body align-self-center">
-                  <h2 class="counter Starting">1276</h2>
+                <div className="media-body align-self-center">
+                  <h2 className="counter Starting">1276</h2>
                   <p>Everyday production</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="media counter-box">
-                <div class="icon">
+            {/* <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="media counter-box">
+                <div className="icon">
                   <i class="flaticon-food"></i>
                 </div>
-                <div class="media-body align-self-center">
-                  <h2 class="counter Starting">396</h2>
+                <div className="media-body align-self-center">
+                  <h2 className="counter Starting">396</h2>
                   <p>Cups Of Cofee</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -87,8 +87,12 @@ li {
   border-radius: 8px;
 }
 
+.container-fluid {
+  padding: 0 !important;
+}
+
 @import "./SCSS/home";
 @import "./SCSS/footer";
 @import "./SCSS/about";
-@import "./SCSS/navBar.scss";
-@import "./SCSS/login.scss";
+@import "./SCSS/navBar";
+@import "./SCSS/login";

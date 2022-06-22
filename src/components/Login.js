@@ -17,7 +17,12 @@ function Registration() {
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
           <Row>
-            <Button variant="primary" className="login-btn mb-2" size="sm">
+            <Button
+              variant="primary"
+              onClick={() => navigate("/adminhome")}
+              className="login-btn mb-2"
+              size="sm"
+            >
               Login
             </Button>
             <Button

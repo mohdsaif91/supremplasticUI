@@ -9,3 +9,15 @@
   padding: 1rem;
   position: absolute;
 }
+
+.justify-content-right {
+  justify-content: right;
+  align-items: right;
+}
+
+.logout-nav-item {
+  .logout-icon {
+    height: 52px;
+    cursor: pointer;
+  }
+}

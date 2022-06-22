@@ -2,64 +2,58 @@ import React from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
+import { adminNav, clientNav } from "../util";
+import LogoutIcon from "../image/icon/logout.png";
+
 function NavbarElement() {
   const navigate = useNavigate();
   const { pathname } = useLocation();
   console.log(pathname);
+
+  const navItem = pathname.includes("admin") ? adminNav : clientNav;
+
   return (
-    <Navbar expand="lg" className="ml-auto">
-      <Container>
-        <Navbar.Brand href="#home">
-          <div className="site-logo" onDoubleClick={() => navigate("/Login")}>
-            <NavLink to="/" className="font-weight-bold">
-              Supreme Plastic
-            </NavLink>
+    <Navbar
+      expand="lg"
+      bg={`${pathname.includes("admin") ? "dark" : "light"}`}
+      className="ml-auto"
+    >
+      <Navbar.Brand href="#home">
+        <div className="site-logo " onDoubleClick={() => navigate("/Login")}>
+          <NavLink to="/" className="font-weight-bold ml-4">
+            Supreme Plastic
+          </NavLink>
+        </div>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse
+        id="basic-navbar-nav ml-3"
+        className={`${
+          pathname.includes("admin") && "d-flex justify-content-right"
+        }`}
+      >
+        <Nav justify={true} className="me-auto">
+          {navItem.map((m) => (
+            <Nav.Link href={`#${m.text}`}>
+              <NavLink
+                className={`${pathname === m.text && "text-primary"} nav-link`}
+                to={m.to}
+              >
+                {m.text}
+              </NavLink>
+            </Nav.Link>
+          ))}
+        </Nav>
+        {pathname.includes("admin") && (
+          <div className="logout-nav-item">
+            <img
+              className="logout-icon mr-2"
+              onClick={() => navigate("/")}
+              src={LogoutIcon}
+            />
           </div>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav ml-3">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">
-              <NavLink
-                className={`${pathname === "/" && "text-primary"} nav-link`}
-                to="/"
-              >
-                Home
-              </NavLink>
-            </Nav.Link>
-            <Nav.Link href="#link">
-              <NavLink
-                to="/contactUs"
-                className={`${
-                  pathname === "/contactUs" && "text-primary"
-                } nav-link`}
-              >
-                Contact
-              </NavLink>
-            </Nav.Link>
-            <Nav.Link href="#link">
-              <NavLink
-                to="/about"
-                className={`${
-                  pathname === "/about" && "text-primary"
-                } nav-link`}
-              >
-                About
-              </NavLink>
-            </Nav.Link>
-            <Nav.Link href="#link">
-              <NavLink
-                to="/service"
-                className={`${
-                  pathname === "/service" && "text-primary"
-                } nav-link`}
-              >
-                Services
-              </NavLink>
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
+        )}
+      </Navbar.Collapse>
     </Navbar>
     // <div className="site-wrap" id="home-section">
     //   {/* <div className="site-mobile-menu site-navbar-target">

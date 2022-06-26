@@ -21,3 +21,28 @@
     cursor: pointer;
   }
 }
+
+//side bar
+
+.admin-side-bar {
+  height: 100%;
+  width: 200px;
+  background-color: #2f4050;
+
+  .list-container {
+    padding-top: 16px !important;
+    .list-item {
+      color: #ffffff;
+      text-align: center;
+      font-size: 22px;
+      padding: 4px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .nav-item-icon {
+        height: 35px;
+      }
+    }
+  }
+}

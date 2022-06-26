@@ -8,7 +8,6 @@ import LogoutIcon from "../image/icon/logout.png";
 function NavbarElement() {
   const navigate = useNavigate();
   const { pathname } = useLocation();
-  console.log(pathname);
 
   const navItem = pathname.includes("admin") ? adminNav : clientNav;
 

@@ -23,6 +23,24 @@ li {
   cursor: pointer;
 }
 
+ul {
+  text-decoration: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+li {
+  text-decoration: none;
+}
+
+.row > * {
+  padding: 0 !important;
+}
+.app-container {
+  width: 100vw;
+  height: 100vh;
+}
+
 .btn {
   padding: 16px 28px;
   font-size: 24px !important;
